@@ -7,7 +7,7 @@ class TicTacToe:
         self.size = n
         self.winner = None
         self.moves_left = n*n
-
+ 
     def move(self, row, col, player):
         self.moves_left -= 1
         player_value = 1 if player == 'X' else -1
